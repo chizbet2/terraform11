@@ -2,7 +2,7 @@ provider "aws" {
   region = "us-east-1"
 }
 
-# Create VPC
+# Create VPCd
 resource "aws_vpc" "main" {
   cidr_block                     = "172.16.0.0/16"
   enable_dns_support             = "true"

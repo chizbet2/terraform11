@@ -27,11 +27,13 @@ description = "CIDR block bits extension offset to calculate Public subnets, avo
 # create some variables
 variable "admin_users" {
   type        = list(string)
-  description = "List of Kubernetes admins."
+  description = "List of Kubernetes developers."
+  default = [ "chizbet2", "docker" ]
 }
 variable "developer_users" {
   type        = list(string)
   description = "List of Kubernetes developers."
+  default = [ "terraform" ]
 }
 variable "asg_instance_types" {
   description = "List of EC2 instance machine types to be used in EKS."

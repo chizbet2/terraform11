@@ -10,5 +10,5 @@ admin_users                              = ["chizbet2", "docker"]
 developer_users                          = ["terraform"]
 asg_instance_types             = [{ instance_type = "t2.medium" }, { instance_type = "t2.medium" }, ]
 autoscaling_minimum_size_by_az           = 1
-autoscaling_maximum_size_by_az           = 5
+autoscaling_maximum_size_by_az           = 20
 autoscaling_average_cpu                  = 30

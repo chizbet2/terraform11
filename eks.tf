@@ -1,4 +1,4 @@
-module "eks_cluster" {
+module "my_eks_cluster" {
   source  = "terraform-aws-modules/eks/aws"
   version = "~> 18.0"
   cluster_name    = var.cluster_name
